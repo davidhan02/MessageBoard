@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.replies {
+  padding: 5px;
+}
+
+.reply {
+  border: 1px dotted black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.newReply {
+  margin: 10px 5px 10px 5px;
+}
+
+.thread {
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 850px;
+}
+
+.id {
+  font-size: 9.5px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#submitNewThread {
+  margin: 50px;
+}
+
+#reportThread {
+  margin: 0 auto;
+}
+
+#reportReply {
+  margin: 0 auto;
+}
+
+#testui {
+  margin-top: 10px;
+  display: flex;
+}
+
+form {
+  flex-direction: column;
+  margin: 10px;
+}
+
+h3 {
+  padding-left: 5px;
+}
